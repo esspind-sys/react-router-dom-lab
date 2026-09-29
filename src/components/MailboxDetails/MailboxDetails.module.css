@@ -1,0 +1,11 @@
+.heading {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 16px 0 8px;
+}
+
+.detail {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin: 4px 0;
+}

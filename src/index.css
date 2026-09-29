@@ -1,0 +1,35 @@
+:root {
+  --bg: #0b1120;        /* page navy background */
+  --panel: #262626;     /* the gray panel behind each page */
+  --text: #f5f5f5;      /* light text */
+  --muted: #cbd5e1;     /* dimmer text */
+  --link: #8b8bff;      /* purple links */
+  --accent: #6366f1;    /* purple button */
+  --border: #6b7280;    /* box outline */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 32px;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Open Sans', system-ui, Arial, sans-serif;
+}
+
+#root {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: var(--panel);
+  border-radius: 12px;
+  padding: 24px;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin: 8px 0 16px;
+}
